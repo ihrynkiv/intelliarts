@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { errorMsg } = require('./text-styles.js');
 
 const historyPath = path.join(__dirname, '../data/history.json');
 const snacksPath = path.join(__dirname, '../data/snacks.json');
