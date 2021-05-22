@@ -25,7 +25,7 @@ const addItem = (categoryName, amount) => {
   snacks.forEach(snack => {
     if (snack.categoryName === categoryName) {
       snack.amount = +snack.amount + +amount;
-      console.log(successMsg('items added'));
+      console.log(successMsg(`${categoryName} added`));
       console.log(
         primaryColorMsg(`${categoryName} ${snack.price} ${snack.amount}`)
       );
